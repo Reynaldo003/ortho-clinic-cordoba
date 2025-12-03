@@ -32,7 +32,7 @@ const ITEMS = [
       "Técnicas ambulatorias para aliviar dolor y mejorar la función con tiempos cortos de recuperación.",
     bullets: ["Infiltración guiada", "Artroscopia", "Control de dolor e inflamación"],
     cta: { label: "Solicitar información", href: "#contacto" },
-    image: "/procedimiento.png",
+    image: "/Procedimiento.png",
     Icon: Syringe,
   },
 ];
