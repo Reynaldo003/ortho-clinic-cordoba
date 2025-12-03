@@ -18,7 +18,7 @@ function loadRatings() {
 function saveRatings(obj) {
   try {
     localStorage.setItem(LS_KEY, JSON.stringify(obj));
-  } catch {}
+  } catch { }
 }
 function avg(arr) {
   if (!arr || !arr.length) return 0;

@@ -99,7 +99,7 @@ export default function Footer() {
             <div className="flex flex-col items-center justify-center gap-4">
               {/* Logo horizontal: pon tu archivo en /public/clinic-logo-wide.png */}
               <img
-                src="/public/logo.png"
+                src="/logo.png"
                 alt="Logo de la clínica"
                 className="h-24 w-auto object-contain md:h-28 lg:h-32"
               />
@@ -145,7 +145,7 @@ export default function Footer() {
               <div className="mt-3 flex items-center gap-2 text-xs text-slate-400">
                 <span>Hecho por:</span>
                 <img
-                  src="/public/RObots.png"
+                  src="/RObots.png"
                   alt="RObots"
                   className="h-5 w-auto rounded-sm ring-1 ring-white/10 object-contain"
                 />
@@ -156,7 +156,7 @@ export default function Footer() {
         </div>
       </div>
 
-     
+
     </footer>
   );
 }

@@ -10,7 +10,7 @@ const ITEMS = [
       "Atención por especialistas en ortopedia y traumatología. Evaluación integral, diagnóstico y plan de tratamiento.",
     bullets: ["Historia clínica y exploración", "Plan diagnóstico", "Ajuste de tratamiento"],
     cta: { label: "Agendar consulta", href: "#equipo" },
-    image: "/public/Consultas.png",
+    image: "/Consultas.png",
     Icon: Stethoscope,
   },
   {
@@ -21,7 +21,7 @@ const ITEMS = [
       "Programas personalizados de fisioterapia para recuperar movilidad, fuerza y rendimiento sin dolor.",
     bullets: ["Readaptación funcional", "Neuromodulación", "Prevención de recaídas"],
     cta: { label: "Agendar fisioterapia", href: "#equipo" },
-    image: "/public/Rehabilitacion.png",
+    image: "/Rehabilitacion.png",
     Icon: Activity,
   },
   {
@@ -32,7 +32,7 @@ const ITEMS = [
       "Técnicas ambulatorias para aliviar dolor y mejorar la función con tiempos cortos de recuperación.",
     bullets: ["Infiltración guiada", "Artroscopia", "Control de dolor e inflamación"],
     cta: { label: "Solicitar información", href: "#contacto" },
-    image: "/Public/procedimiento.png",
+    image: "/procedimiento.png",
     Icon: Syringe,
   },
 ];
