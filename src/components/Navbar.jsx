@@ -16,18 +16,11 @@ export default function Navbar() {
 
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-6 text-sm">
-            <NavLink to="/" className={({isActive}) => isActive ? 'font-semibold' : 'text-slate-600 dark:text-slate-300'}>Inicio</NavLink>
+            <NavLink to="/" className={({ isActive }) => isActive ? 'font-semibold' : 'text-slate-600 dark:text-slate-300'}>Inicio</NavLink>
             <a href="#equipo" className="text-slate-600 dark:text-slate-300">Equipo</a>
             <a href="#servicios" className="text-slate-600 dark:text-slate-300">Servicios</a>
             <a href="#contacto" className="text-slate-600 dark:text-slate-300">Contacto</a>
           </nav>
-
-          <div className="hidden md:flex items-center gap-2">
-            <a href="#equipo" className="btn btn-ghost">Ver equipo</a>
-            <Link to="/book/dr-hernandez" className="btn btn-primary">
-              <CalendarDays className="h-4 w-4" /> Agendar
-            </Link>
-          </div>
 
           {/* Mobile toggler */}
           <button
@@ -47,7 +40,6 @@ export default function Navbar() {
             <a href="#equipo" className="block px-2 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-900">Equipo</a>
             <a href="#servicios" className="block px-2 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-900">Servicios</a>
             <a href="#contacto" className="block px-2 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-900">Contacto</a>
-            <Link to="/book/dr-hernandez" className="btn btn-primary w-full justify-center">Agendar</Link>
           </div>
         )}
       </div>
